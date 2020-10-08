@@ -1,0 +1,26 @@
+header {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 15px;
+}
+
+
+#weather {
+    height: 500px;
+    width: 60%;
+    margin-left: 1px;
+}
+
+#forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+#forecast-cards >
+    div[class*='col-'] {
+        display: flex;
+}
+
+.forecast {
+    color: #ffffff;
+}
